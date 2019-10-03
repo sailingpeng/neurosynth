@@ -31,3 +31,4 @@ setup(name="neurosynth",
                     },
       **extra_setuptools_args
       )
+# psl
