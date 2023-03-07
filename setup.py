@@ -12,6 +12,7 @@ if 'setuptools' in sys.modules:
             test='nose>=0.10.1')
     )
 # pengshaoling
+# pengshaoling 2
 # fetch version from within neurosynth module
 with open(os.path.join('neurosynth', 'version.py')) as f:
     exec(f.read())
