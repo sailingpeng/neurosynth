@@ -11,7 +11,7 @@ if 'setuptools' in sys.modules:
         extras_require=dict(
             test='nose>=0.10.1')
     )
-
+# pengshaoling
 # fetch version from within neurosynth module
 with open(os.path.join('neurosynth', 'version.py')) as f:
     exec(f.read())
